@@ -1,0 +1,53 @@
+:root {
+  /*_______ Font Family _______*/
+  --p-font-700: "Jost 700";
+  --p-font-600: "Jost 600";
+  --p-font-500: "Jost 500";
+  --p-font-400: "Jost 400";
+  --s-font-500: "Roboto 500";
+  --s-font-400: "Roboto 400";
+
+  /*________ Font Size ________*/
+  --size-3xl: 50px;
+  --size-2xl: 35px;
+  --size-xl: 20px;
+  --size-lg: 18px;
+  --size-md: 16px;
+  --size-sm: 15px;
+  --size-xsm: 14px;
+
+  /*_____ Text Line Height _____*/
+  --line-h-3xl: 1.3;
+  --line-h-2xl: 1.5;
+  --line-h-xl: 1.5;
+  --line-h-lg: 1.6;
+  --line-h-md: 1.6;
+  --line-h-sm: 1.5;
+  --line-h-xsm: 1.5;
+
+  /*________ Text Color ________*/
+  --primary-color: #333333;
+  --secondary-color: #545454;
+  --text-color3: #ffffff;
+  --text-color4: #777777;
+  --text-color5: #dd5621;
+
+  /*_________ BG Color _________*/
+  --primary-bg: #ffffff;
+  --secondary-bg: #f2f3f9;
+  --bg-color3: #dd5621;
+  --bg-color4: #333333;
+  --btn-bg-1: #59b210;
+  --btn-bg-hover-1: #60c011;
+  --btn-bg-2: #3e5067;
+  --btn-bg-hover-2: #333333;
+
+  /*_______ Border Color _______*/
+  --border-1: #d0d5dd;
+  --border-2: #dd5621;
+
+  /*________ Box Shadow ________*/
+  --shadow-1: 0 0 10px 0px rgba(40, 1, 70, 0.19);
+}
+
+/* background-image: linear-gradient(to right, #1b9dac, #41c278); */
