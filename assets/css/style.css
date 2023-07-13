@@ -321,6 +321,14 @@ Start Reuseble Css Classes
   margin-bottom: 15px;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-underline:hover {
+  text-decoration: none;
+}
+
 .t-linear {
   -webkit-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
@@ -351,13 +359,13 @@ Start Reuseble Components
 */
 /* ***** Background Button ***** */
 .bg-btn {
-  font-family: var(--s-font-400);
-  font-size: var(--size-xsm);
+  font-family: var(--p-font-400);
+  font-size: var(--size-sm);
   color: var(--text-color3);
   text-transform: uppercase;
-  line-height: var(--line-h-xsm);
+  line-height: var(--line-h-sm);
   word-spacing: 1px;
-  padding: 10px 30px;
+  padding: 13px 30px;
   background-color: var(--btn-bg-2);
   transition: all 0.3s ease;
 }
@@ -387,9 +395,6 @@ Start Reuseble Components
   box-shadow: var(--shadow-1);
 }
 
-.stock-product {
-}
-
 .product-card .product-img-wrap {
   position: relative;
   overflow: hidden;
@@ -405,7 +410,7 @@ Start Reuseble Components
 }
 
 .product-img-wrap .wishlist-btn {
-  font-family: var(--s-font-400);
+  font-family: var(--p-font-400);
   font-size: var(--size-xsm);
   color: var(--text-color3);
   text-transform: uppercase;
@@ -482,6 +487,103 @@ Start Reuseble Components
   line-height: var(--line-h-sm);
 }
 
+/* ***** All Form ***** */
+.form-section {
+  min-height: 100vh;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid var(--border-1);
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+@media (max-width: 425px) {
+  .form-wrapper {
+    padding: 25px 15px;
+  }
+}
+
+.user-form:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.user-form .user-input,
+.user-form .user-input::placeholder {
+  font-family: var(--s-font-400);
+  font-size: var(--size-sm);
+}
+
+.user-form .user-input {
+  color: var(--primary-color);
+  border: 1px solid var(--border-1);
+  padding: 15px;
+  border-radius: 5px;
+  height: 50px;
+  background-color: var(--primary-bg);
+}
+
+.user-form .user-input::placeholder {
+  color: var(--secondary-color);
+}
+
+.user-form .user-input:focus {
+  border-color: var(--border-2);
+}
+
+.user-form-check .form-check input,
+.user-form-check .form-check label {
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .user-form-check {
+    flex-direction: column;
+    justify-content: center !important;
+  }
+}
+
+.user-form .user-btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.line span:after, 
+.line span:before {
+  content: "";
+  background-color: var(--bg-color4);
+  width: 44%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.line span:before {
+  left: 2px;
+}
+
+.line span:after {
+  right: 2px;
+}
+
+.user-google {
+  padding: 12px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-1);
+}
+
+.user-google img {
+  width: 25px;
+  height: 25px;
+}
 /* 
 =========================================
 End Reuseble Components
@@ -531,10 +633,11 @@ End Header Section
 */
 
 /* 
-=========================================
-Start Hero Section
-=========================================
+============================================================
+Home Page Style CSS
+============================================================
 */
+/* Hero Section */
 .hero-banner {
   /* background: url("../images/hero/1.jpg") no-repeat center center / cover; */
   /* height: 60vh; */
@@ -620,17 +723,8 @@ Start Hero Section
   width: 20px;
   height: 20px;
 }
-/* 
-=========================================
-End Hero Section
-=========================================
-*/
 
-/* 
-=========================================
-Start Big-Discount Section
-=========================================
-*/
+/* Big-Discount Section */
 .big-discount .big-discount-bg {
   width: 100%;
   border: 1px solid var(--border-1);
@@ -657,17 +751,8 @@ Start Big-Discount Section
 .big-discount-text .discount-product-name {
   margin-bottom: 20px;
 }
-/* 
-=========================================
-End Big-Discount Section
-=========================================
-*/
 
-/* 
-=========================================
-Start  Section
-=========================================
-*/
+/* Support Section */
 .support-card {
   background-color: var(--primary-bg);
   border: 1px solid var(--border-1);
@@ -697,104 +782,9 @@ Start  Section
 .support-card-title {
   margin-bottom: 8px;
 }
-/* 
-=========================================
-End  Section
-=========================================
-*/
 
 /* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
-*/
-
-/* 
-=========================================
-Start  Section
-=========================================
-*/
-
-/* 
-=========================================
-End  Section
-=========================================
+============================================================
+Login Page Style CSS
+============================================================
 */
